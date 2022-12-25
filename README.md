@@ -6,15 +6,15 @@
 
 ## Deskripsi Umum
 Pada kesempatan ini kita akan membahas source code untuk membuat array dalam implementasi deret aritmatika menggunakan bahasa C++.<br>
-Tujuan utama dari bahasan kali ini adalah untuk mencari bilangan hasil input yang tidak habis dibagi oleh angka 3, 5 atau 7.</br>
+Tujuan utama dari bahasan kali ini adalah untuk mencari bilangan hasil input yang tidak habis dibagi oleh angka 3, 5 dan 7.</br>
 Algoritma dari Source code ini yaitu : <br>
 <ol>
 <li>User menginputkan berapa banyak baris pada array dengan range 0-20.</li>
 <li>User menginputkan berapa banyak kolom pada array dengan range 0-20.</li>
 <li>User menginputkan satu persatu nilai array yang ingin dicek, dimulai dari baris dan kolom pertama [1]:[1].</li>
 <li>Setelah semua terisi, nilai dalam array tersebut ditampilkan sesuai aturan matriks.</li>
-<li>Kemudian nilai input tersebut akan divalidasi apakah dapat dibagi oleh 3, 5 atau 7, atau tidak.</li>
-<li>Setelahnya akan ditampilkan kembali nilai yang tidak habis dibagi oleh 3, 5 atau 7.</li>
+<li>Kemudian nilai input tersebut akan divalidasi apakah dapat dibagi oleh 3, 5 dan 7, atau tidak.</li>
+<li>Setelahnya akan ditampilkan kembali nilai yang tidak habis dibagi oleh 3, 5 dan 7.</li>
 </ol>
 
 ## Source Code
@@ -72,7 +72,7 @@ int main(){
 	
 	int hasil[i * j];
 	int k = 0;
-	cout << "Berikut Tampilan Data yang Tidak Habis Dibagi 3, 5, atau 7 : ";
+	cout << "Berikut Tampilan Data yang Tidak Habis Dibagi 3, 5, dan 7 : ";
 	for (i = 1; i <= baris; i++){
 		for (j = 1; j <= kolom; j++){
 			if (a[i][j]%3 != 0 && a[i][j]%5 != 0 && a[i][j]%7 !=0){
